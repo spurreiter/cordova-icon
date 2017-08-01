@@ -89,6 +89,7 @@ var getPlatforms = function (projectName) {
       { name : 'icon-512x512.png',  size : 512 }
     ]
   });
+  // from https://www.jayway.com/2015/03/16/windows-phone-8-1-tile-icon-size-guide/
   platforms.push({
     name : 'windows',
     isAdded : fs.existsSync('platforms/windows'),
@@ -103,17 +104,21 @@ var getPlatforms = function (projectName) {
       { name : 'StoreLogo.scale-240.png', size : 120 },
       { name : 'StoreLogo.scale-400.png', size : 200 },
 
+      { name : 'Square30x30Logo.scale-100.png', size : 30  },
+
       { name : 'Square44x44Logo.scale-100.png', size : 44  },
       { name : 'Square44x44Logo.scale-125.png', size : 55  },
       { name : 'Square44x44Logo.scale-140.png', size : 62  },
       { name : 'Square44x44Logo.scale-150.png', size : 66  },
       { name : 'Square44x44Logo.scale-200.png', size : 88  },
-      { name : 'Square44x44Logo.scale-240.png', size : 106  },
+      { name : 'Square44x44Logo.scale-240.png', size : 106 },
       { name : 'Square44x44Logo.scale-400.png', size : 176 },
+
+      { name : 'Square70x70Logo.scale-100.png', size : 70  },
 
       { name : 'Square71x71Logo.scale-100.png', size : 71  },
       { name : 'Square71x71Logo.scale-125.png', size : 89  },
-      { name : 'Square71x71Logo.scale-140.png', size : 99 },
+      { name : 'Square71x71Logo.scale-140.png', size : 99  },
       { name : 'Square71x71Logo.scale-150.png', size : 107 },
       { name : 'Square71x71Logo.scale-200.png', size : 142 },
       { name : 'Square71x71Logo.scale-240.png', size : 170 },
